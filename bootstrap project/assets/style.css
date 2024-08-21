@@ -1,0 +1,92 @@
+.bg-color {
+    background-color: #052c52;
+    color: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-brand img {
+    width: 230px;
+    height: 80px;
+    margin-left: 20px
+}
+
+.button:hover {
+    background-color: #052c52;
+    border: 1px solid #052c52
+}
+
+.mail a {
+    color: #fff;
+}
+
+.mail a:hover {
+    color: red;
+    text-decoration: none;
+}
+
+.mail i {
+    color: red;
+}
+
+.app-box i:hover {
+    background-color: red;
+}
+
+.input {
+    /* display: inline; */
+    /* outline: none; */
+    border: 1px solid #666d811f;
+    /* font-size: 18px; */
+    /* margin-bottom: 40px; */
+    /* border-bottom: 1px solid #fcfcfc5b; */
+    background-color: transparent;
+    color: #8093a8;
+    /* padding: 10px 0; */
+    width: 100%;
+    display: block;
+}
+
+.textarea {
+    /* outline: none; */
+    border: 1px solid #666d811f;
+    /* border-bottom: 1px solid #fcfcfc5b; */
+    background-color: transparent;
+    color: #666d81;
+    width: 100%;
+}
+
+.reg-btn {
+    margin-top: 20px;
+    background-color: transparent;
+    border: 1px solid #052c52;
+    color: #052c52;
+    padding: 10px 20px;
+    font-weight: 700;
+    width: 100%;
+}
+.reg-btn:hover{
+    background-color: #052c52;
+    color:#fff;
+}
+
+.input:focus{
+    border:1px solid red;
+}
+.textarea:focus{
+    border:1px solid red;
+
+}
+/* .input-group{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: 100%;
+}
+.input-group-pre{
+    margin-right: -1px;
+} */
